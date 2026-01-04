@@ -110,8 +110,8 @@ export default function SettingsScreen() {
 
             {/* Concurrent Downloads */}
             <View className="bg-surface rounded-lg p-4 border border-border mb-3">
-              <View className="flex-row justify-between items-center mb-3">
-                <View>
+              <View className="flex-row justify-between items-center">
+                <View className="flex-1">
                   <Text className="text-sm font-semibold text-foreground">
                     Concurrent Downloads
                   </Text>
